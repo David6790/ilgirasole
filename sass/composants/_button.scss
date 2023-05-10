@@ -1,0 +1,62 @@
+#btnCommander{
+    height: 40px;
+    width: 190px;
+    background-color: transparent;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border: solid 1px white;
+    background-color: rgba(0, 0,0, 0.5);
+
+}
+
+.btnContact{
+    height: 40px;
+    width: 190px;
+    background-color: transparent;
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+    border: solid 1px  black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    &:hover{
+        background-color: black;
+        color: white;
+    }
+    
+}
+
+#btnCommander{
+    height: 40px;
+    width: 190px;
+    background-color: rgba(0, 0,0, 0.5);
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    border: solid 1px white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    transition: transform 330ms ease;
+    &:hover{
+        transform: scale(1.8);
+    }
+
+}
+
+#reserver{
+    height: 40px;
+    width: 190px;
+    background-color: rgba(0, 0,0, 0.5);
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    border: solid 1px white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    transition: transform 330ms ease;
+    &:hover{
+        transform: scale(1.5);
+    }
+
+}

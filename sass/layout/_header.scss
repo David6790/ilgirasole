@@ -1,0 +1,31 @@
+
+.navContainer{
+    width: 100%;
+    height: 60px;
+    max-width: 1440px;
+   
+    
+    nav{
+        position: fixed;
+        width: inherit;
+        max-width: inherit;
+        height: inherit;
+        background-color: black;
+        z-index: 2;
+       ul{
+        display: flex;
+        justify-content: center;
+        gap: 10%;
+        align-items: center;
+        padding-top: 5px;
+        li{
+            transition: transform 330ms ease;
+            &:hover{
+                transform: scale(1.5);
+            }
+        }
+       
+       }
+
+    }
+}

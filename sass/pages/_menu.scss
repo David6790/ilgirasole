@@ -1,0 +1,60 @@
+.menuBanner{
+    position:relative;
+    width: 100%;
+    height: 500px;
+    
+    img{
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+    }
+    .menuContainer{
+        margin: auto;
+        width: 70%;
+        background-color: white;
+        border-radius: 40px;
+        position: absolute;
+        top: 60%;
+        left: 15%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        
+        h2{
+            border-bottom: solid 1px black;
+            padding-left: 80px;
+            padding-right: 80px;
+            padding-bottom: 20px;
+            padding-top: 40px;
+            font-size: 3rem;
+            font-weight: 800;
+        }
+       
+        
+       
+        .classeMenu{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: space-evenly;
+            
+            
+            .card{
+                width: 44%;
+                text-align: center;
+                p{
+                    color: $headerBackgroundColor;
+                    font-weight: 100;
+                }
+            }
+        }
+        
+    }
+}
+
