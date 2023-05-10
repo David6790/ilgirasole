@@ -13,10 +13,6 @@ const dessert = document.getElementById("dessert");
 const retourAcceuil = document.getElementById("menuVersAcceuil");
 const reservation = document.getElementById("menuVersRéservation");
 
-retourAcceuil.addEventListener("click", function () {
-  window.location.replace("../index.html");
-});
-
 const getMenu = async () => {
   await fetch("https://sheetdb.io/api/v1/rx6fpue4d9jt1")
     .then((res) => res.json())
