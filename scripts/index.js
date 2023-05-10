@@ -10,5 +10,5 @@ deliveroo.addEventListener("click", function () {
 });
 
 surplace.addEventListener("click", function () {
-  window.location.replace("../pages/menu.html");
+  window.location.replace("./pages/menu.html");
 });
